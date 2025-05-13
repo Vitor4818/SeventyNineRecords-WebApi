@@ -1,0 +1,37 @@
+@baseUrl = http://localhost:5011
+
+### 🟢 GET - Listar todas as músicas
+GET {{baseUrl}}/api/songs
+Accept: application/json
+
+### 🔵 POST - Cadastrar nova música
+POST {{baseUrl}}/api/songs
+Content-Type: application/json
+
+{
+    "id":1,
+  "name": "1979",
+  "duration": "4:26",
+  "albumId": 1,
+  "bandId": 1
+}
+
+### 🟡 GET - Obter música por ID
+GET {{baseUrl}}/api/songs/1
+Accept: application/json
+
+### 🟣 PUT - Atualizar música por ID
+PUT {{baseUrl}}/api/songs/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "1979 (Remastered)",
+  "duration": "4:32",
+  "albumId": 1,
+  "bandId": 1
+}
+
+### 🔴 DELETE - Remover música por ID
+DELETE {{baseUrl}}/api/songs/1
+Accept: application/json

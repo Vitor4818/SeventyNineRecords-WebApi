@@ -1,0 +1,39 @@
+@baseUrl = http://localhost:5011
+
+### 🟢 GET - Listar todas as bandas
+GET {{baseUrl}}/api/band
+Accept: application/json
+
+### 🔵 POST - Cadastrar nova banda
+POST {{baseUrl}}/api/band
+Content-Type: application/json
+
+{
+    "id":1,
+  "name": "The Smashing Pumpkins",
+  "genre": "Alternative Rock",
+  "yearStarted": 1988
+}
+
+### 🟡 GET - Obter banda por ID
+GET {{baseUrl}}/api/band/1
+Accept: application/json
+
+### 🟣 GET - Buscar bandas por nome
+GET {{baseUrl}}/api/band/search?name=Pumpkins
+Accept: application/json
+
+### 🟢 PUT - Atualizar banda por ID
+PUT {{baseUrl}}/api/band/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "The Smashing Pumpkins",
+  "genre": "Alternative Rock",
+  "yearStarted": 1987
+}
+
+### 🔴 DELETE - Remover banda por ID
+DELETE {{baseUrl}}/api/band/1
+Accept: application/json

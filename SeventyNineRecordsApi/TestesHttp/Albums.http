@@ -1,0 +1,34 @@
+@baseUrl = http://localhost:5011
+
+### 🟢 GET - Listar todos os álbuns
+GET {{baseUrl}}/api/Albums
+Accept: application/json
+
+### 🔵 POST - Cadastrar novo álbum
+POST {{baseUrl}}/api/Albums
+Content-Type: application/json
+
+{
+    "id":1,
+  "name": "Mellon Collie and the Infinite Sadness",
+  "releaseYear": 1995,
+  "bandId": 1
+}
+### 🟡 GET - Obter álbum por ID
+GET {{baseUrl}}/api/Albums/1
+Accept: application/json
+
+### 🟣 PUT - Atualizar álbum por ID
+PUT {{baseUrl}}/api/Albums/1
+Content-Type: application/json
+
+{
+    "id":1,
+  "name": "Mellon Collie",
+  "releaseYear": 1995,
+  "bandId": 1
+}
+
+### 🔴 DELETE - Remover álbum por ID
+DELETE {{baseUrl}}/api/Albums/1
+Accept: application/json

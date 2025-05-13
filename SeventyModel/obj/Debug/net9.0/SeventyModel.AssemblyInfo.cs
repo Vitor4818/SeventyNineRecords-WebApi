@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeventyModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a782d5a19078ba73294db990dd2da529820822b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9df4504abc87cdac1fda3f55466637e289cb417")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeventyModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeventyModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
