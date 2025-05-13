@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeventyNineRecordsApi", "SeventyNineRecordsApi\SeventyNineRecordsApi.csproj", "{DDB52602-DE26-4014-8AE7-495B1E941C1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB52602-DE26-4014-8AE7-495B1E941C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB52602-DE26-4014-8AE7-495B1E941C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB52602-DE26-4014-8AE7-495B1E941C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB52602-DE26-4014-8AE7-495B1E941C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ED882A1-458D-4FC1-A247-18D513477387}
+	EndGlobalSection
+EndGlobal

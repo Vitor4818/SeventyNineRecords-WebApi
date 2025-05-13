@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4IV8l30wBFmPZt998SLadXHDNqOHqNrVKIIEPqVW9jQ=",
+  "Source": "SeventyNineRecordsApi",
+  "BasePath": "_content/SeventyNineRecordsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
