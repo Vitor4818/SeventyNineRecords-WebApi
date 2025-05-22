@@ -10,3 +10,15 @@ C:\Users\vitor\Documents\.NET fiap\SeventyNineRecords\SeventyModel\obj\Debug\net
 C:\Users\vitor\Documents\.NET fiap\SeventyNineRecords\SeventyModel\obj\Debug\net9.0\refint\SeventyModel.dll
 C:\Users\vitor\Documents\.NET fiap\SeventyNineRecords\SeventyModel\obj\Debug\net9.0\SeventyModel.pdb
 C:\Users\vitor\Documents\.NET fiap\SeventyNineRecords\SeventyModel\obj\Debug\net9.0\ref\SeventyModel.dll
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\bin\Debug\net9.0\SeventyModel.deps.json
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\bin\Debug\net9.0\SeventyModel.dll
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\bin\Debug\net9.0\SeventyModel.pdb
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\SeventyModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\SeventyModel.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\SeventyModel.AssemblyInfo.cs
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\SeventyModel.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\SeventyModel.sourcelink.json
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\SeventyModel.dll
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\refint\SeventyModel.dll
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\SeventyModel.pdb
+C:\Users\vitor\Documents\.NET fiap\seventyninerecords-webapi\SeventyModel\obj\Debug\net9.0\ref\SeventyModel.dll

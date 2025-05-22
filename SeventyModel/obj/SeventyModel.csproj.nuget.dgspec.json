@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor\\Documents\\.NET fiap\\SeventyNineRecords\\SeventyModel\\SeventyModel.csproj": {}
+    "C:\\Users\\vitor\\Documents\\.NET fiap\\seventyninerecords-webapi\\SeventyModel\\SeventyModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor\\Documents\\.NET fiap\\SeventyNineRecords\\SeventyModel\\SeventyModel.csproj": {
+    "C:\\Users\\vitor\\Documents\\.NET fiap\\seventyninerecords-webapi\\SeventyModel\\SeventyModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\Documents\\.NET fiap\\SeventyNineRecords\\SeventyModel\\SeventyModel.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Documents\\.NET fiap\\seventyninerecords-webapi\\SeventyModel\\SeventyModel.csproj",
         "projectName": "SeventyModel",
-        "projectPath": "C:\\Users\\vitor\\Documents\\.NET fiap\\SeventyNineRecords\\SeventyModel\\SeventyModel.csproj",
+        "projectPath": "C:\\Users\\vitor\\Documents\\.NET fiap\\seventyninerecords-webapi\\SeventyModel\\SeventyModel.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\Documents\\.NET fiap\\SeventyNineRecords\\SeventyModel\\obj\\",
+        "outputPath": "C:\\Users\\vitor\\Documents\\.NET fiap\\seventyninerecords-webapi\\SeventyModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
