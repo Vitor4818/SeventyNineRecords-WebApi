@@ -55,11 +55,34 @@ docker build -t fiap/seventyninerecords-api:1.0 .
 ```
 
 5. Rodar o container da aplicação:
-Gere ou aplique as migrations para criar o esquema do banco:
 ```bash
 docker run -d -p 5000:8080 --name SeventyNineAPIContainer  --network cp3-montClio -e ConnectionStrings__DefaultConnection="User Id=appuser_n73X;Password=F7uLw9kZ!mXv;Data Source=oracle-database:1521/XEPDB1" fiap/seventyninerecords-api:1.0
 ```
 A API será iniciada
+
+## Testando a API
+Para testar a aplicação, utilize os arquivos .http disponíveis no projeto ou ferramentas como o Thunder Client ou Postman.# Teste com Endpoint banda
+
+# Testando o Endpoint de Banda
+Abaixo estão os prints de cada operação realizada via endpoints:
+
+
+- **POST /bandas** → Criar banda  
+![image](https://github.com/user-attachments/assets/485d4803-bc47-4d0c-8ca5-5b5fe0c4d4ac)
+
+- **GET /bandas** → Listar todas  
+![image](https://github.com/user-attachments/assets/12d3f4b5-24f2-4a24-98b7-bd8bad425717)
+
+- **GET /bandas/{id}** → Buscar por ID  
+![image](https://github.com/user-attachments/assets/6fbd8c02-b333-4621-a2c5-a0d8e266627f)
+
+- **PUT /bandas/{id}** → Atualizar  
+![image](https://github.com/user-attachments/assets/973e800b-b4e1-41b8-9754-0a1e32b10200)
+
+- **DELETE /bandas/{id}** → Deletar  
+![image](https://github.com/user-attachments/assets/226db3ee-cca1-4241-b659-32a6d9e083c6)
+
+
 
 ##  📚 Documentação (Swagger)
 
