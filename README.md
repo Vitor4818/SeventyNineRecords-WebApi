@@ -37,31 +37,30 @@ Esse isolamento segue boas práticas de design: a camada de API interage apenas 
 
 ## 🚀 Como Executar Localmente
 Para rodar o projeto na sua máquina, siga os passos:
+
 1. Clonar o repositório:
 ```bash
 git clone https://github.com/vitor4818/SeventyNineRecords-WebApi.git
 cd SeventyNineRecords-WebApi
 ```
-2. Restaurar pacotes NuGet:
-```bash
-dotnet restore
-```
-3. Configurar string de conexão:
-No arquivo appsettings.json, ajuste a seção ConnectionStrings com os dados de acesso ao seu Oracle
-(host, porta, SID/Service Name, usuário e senha).
 
-5. Aplicar Migrations:
+2. Subir o container do Oracle:
+```bash
+docker run -d --name oracle-database --network cp3-montClio -p 1521:1521 -p 8080:8080 -e ORACLE_PASSWORD=F7uLw9kZ!mXv -e ORACLE_DATABASE=ORCL -e APP_USER=appuser_n73X -e APP_USER_PASSWORD=F7uLw9kZ!mXv -v oracle-database:/opt/oracle/oradata  gvenzl/oracle-xe
+```
+
+3. Realizar o build da imagem da aplicação
+```
+docker build -t fiap/seventyninerecords-api:1.0 .   
+```
+
+5. Rodar o container da aplicação:
 Gere ou aplique as migrations para criar o esquema do banco:
 ```bash
-
-dotnet ef database update
-```
-(Isso criará as tabelas definidas pelos DbSets e migrations na sua base Oracle.)
-5. Executar a API:
-```bash
-dotnet run --project SeventyNineRecords.WebApi
+docker run -d -p 5000:8080 --name SeventyNineAPIContainer  --network cp3-montClio -e ConnectionStrings__DefaultConnection="User Id=appuser_n73X;Password=F7uLw9kZ!mXv;Data Source=oracle-database:1521/XEPDB1" fiap/seventyninerecords-api:1.0
 ```
 A API será iniciada
+
 ##  📚 Documentação (Swagger)
 
 Após iniciar a API, a documentação interativa do Swagger estará disponível em:
