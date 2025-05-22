@@ -24,9 +24,16 @@ namespace SeventyBusiness
 
         public async Task<BandModel?> GetByIdAsync(int id)
         {
-            return await _context.Bands
+            var band = await _context.Bands
                 .Include(b => b.Albums)
                 .FirstOrDefaultAsync(b => b.Id == id);
+
+            if (band != null)
+            {
+                Console.WriteLine($"[INFO] Banda encontrada: {band.GetDescription()}");
+            }
+
+            return band;
         }
 
         public async Task<List<BandModel>> SearchByNameAsync(string name)

@@ -1,11 +1,14 @@
 namespace SeventyModel
 {
-    public class BandModel
+    public class BandModel : MusicEntity
     {
-        public required int Id { get; set; }
-        public required string Name { get; set; }
         public required string Genre { get; set; }
-        public required int YearStarted { get; set; }
+        public int YearStarted { get; set; }
         public List<AlbumModel>? Albums { get; set; } = new();
+
+        public override string GetDescription()
+        {
+            return $"Banda: {Name}, gênero: {Genre}, iniciou em: {YearStarted}";
+        }
     }
 }
