@@ -46,7 +46,14 @@ cd SeventyNineRecords-WebApi
 
 2. Subir o container do Oracle:
 ```bash
-docker run -d --name oracle-database --network cp3-montClio -p 1521:1521 -p 8080:8080 -e ORACLE_PASSWORD=F7uLw9kZ!mXv -e ORACLE_DATABASE=ORCL -e APP_USER=appuser_n73X -e APP_USER_PASSWORD=F7uLw9kZ!mXv -v oracle-database:/opt/oracle/oradata  gvenzl/oracle-xe
+docker run -d --name oracle-database --network cp3-montClio \
+-p 1521:1521 -p 8080:8080 \
+-e ORACLE_PASSWORD='F7uLw9kZ!mXv' \
+-e ORACLE_DATABASE=ORCL \
+-e APP_USER=appuser_n73X \
+-e APP_USER_PASSWORD='F7uLw9kZ!mXv' \
+-v oracle-database:/opt/oracle/oradata \
+gvenzl/oracle-xe
 ```
 
 3. Realizar o build da imagem da aplicação
