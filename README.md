@@ -45,10 +45,12 @@ cd SeventyNineRecords-WebApi
 ```
 
 2. Criar a rede docker:
-   ```docker network create cp3-montClio```
+   ```
+   ndocker network create cp3-montClio
+   ```
    
 4. Subir o container do Oracle:
-```bash
+```
 docker run -d --name oracle-database --network cp3-montClio \
 -p 1521:1521 -p 8080:8080 \
 -e ORACLE_PASSWORD='F7uLw9kZ!mXv' \
