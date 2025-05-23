@@ -44,7 +44,10 @@ git clone https://github.com/vitor4818/SeventyNineRecords-WebApi.git
 cd SeventyNineRecords-WebApi
 ```
 
-2. Subir o container do Oracle:
+2. Criar a rede docker:
+   ```docker network create cp3-montClio```
+   
+4. Subir o container do Oracle:
 ```bash
 docker run -d --name oracle-database --network cp3-montClio \
 -p 1521:1521 -p 8080:8080 \
@@ -56,12 +59,12 @@ docker run -d --name oracle-database --network cp3-montClio \
 gvenzl/oracle-xe
 ```
 
-3. Realizar o build da imagem da aplicação
+4. Realizar o build da imagem da aplicação
 ```
 docker build -t fiap/seventyninerecords-api:1.0 .   
 ```
 
-5. Rodar o container da aplicação:
+6. Rodar o container da aplicação:
 ```bash
 docker run -d -p 5000:8080 --name SeventyNineAPIContainer  --network cp3-montClio -e ConnectionStrings__DefaultConnection="User Id=appuser_n73X;Password=F7uLw9kZ!mXv;Data Source=oracle-database:1521/XEPDB1" fiap/seventyninerecords-api:1.0
 ```
